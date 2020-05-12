@@ -12,26 +12,14 @@
 
 .container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  height: 120px;
 }
 
 .titulo {
   font-family: Arial, sans-serif;
 }
 
-
-h1 {
-  padding: 10px;
-  margin: auto;
-  background-color: lightblue;
-}
-
-p {
-  color: blue;
-  text-align: justify;
-  text-shadow: 2px;
-}
-
-.titulo {
-  text-align: center;
+ul li {
+  list-style: none;
 }
