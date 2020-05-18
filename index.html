@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Home Blog Cocinando</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
     <header id="titulo">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-around">
           <div class="col-6 col-md-4">
             <h1>Cocinando con Clau.</h1>
           </div>
-          <div class="col-6 col-md-4">
+          <div class="col-6 col-md-4 align-self-center">
             <img src="Icono1.png" height="100" width="100" alt="Imagen1">
           </div>
-          <div class="col-6 col-md-4">
+          <div class="col-6 col-md-4 align-self-center">
             <ul>
               <li>Recetas</li>
               <li>Historias</li>
@@ -33,32 +33,57 @@
     <main id="Menu">
 
       <div class="container">
-        <div class="row">
-          <h2>Pagina Web para blog de cocinando con Clau</h2>
+        <div class="row justify-content-center">
+          <h2 class="Entry">Pagina Web para blog de cocinando con Clau</h2>
         </div>
-        <div class="row">
+        <div class="row justify-content-around">
           <div class="col-6 col-md-4">
-            Recetas:
-            <img src="#" alt="imagenReceta">
-            <a class="btn btn-primary" href="recetas.html" role="button">Recetas</a>
+            <div class="card">
+              <img src="foto1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Recetas</h5>
+                  <p class="card-text">entra aqui para ver las recetas que prepara Clau.</p>
+                  <a href="recetas.html" class="btn btn-primary">recetas</a>
+                </div>
+            </div>
           </div>
+
           <div class="col-6 col-md-4">
-            Fotos:
-            <img src="#" alt="imagenReceta">
-            <a class="btn btn-primary" href="FotosRecetas.html" role="button">Recetas</a>
+            <div class="card">
+              <img src="foto2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fotos:</h5>
+                  <p class="card-text">entra aqui para ver las fotos de las recetas que prepara Clau.</p>
+                  <a href="FotosRecetas.html" class="btn btn-primary">Food styling</a>
+                </div>
+            </div>
           </div>
+
           <div class="col-6 col-md-4">
-            Historias:
-            <img src="#" alt="imagenReceta">
-            <a class="btn btn-primary" href="Historias.html" role="button">Recetas</a>
+            <div class="card">
+              <img src="foto3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Historias</h5>
+                  <p class="card-text">entra aqui para ver las Historias de Clau.</p>
+                  <a href="historias.html" class="btn btn-primary">Historias</a>
+                </div>
+            </div>
           </div>
+
         </div>
       </div>
 
     </main>
 
     <footer>
-      <h3>pie de pagina</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h5>pie de pagina</h5>
+          </div>
+        </div>
+      </div>
+
     </footer>
 
   </body>
