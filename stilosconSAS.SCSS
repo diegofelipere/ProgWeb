@@ -5,6 +5,6 @@ $color-card-letter: white;
   font-size: 15px;
   background-color: $color-card;
   .card-text, .card-title{
-    color: color-card-letter;
+    color: $color-card-letter;
   }
 }

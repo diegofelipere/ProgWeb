@@ -46,3 +46,14 @@
 footer h5 {
   text-align: center;
 }
+
+/* Usando para probar con SCSS
+.card {
+  font-size: 15px;
+  background-color: tomato;
+}
+
+.card-text, .card-title{
+  color: white;
+}
+*/
