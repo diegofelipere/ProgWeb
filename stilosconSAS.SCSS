@@ -1,0 +1,10 @@
+$color-card: #00bfff;
+$color-card-letter: white;
+
+.card {
+  font-size: 15px;
+  background-color: $color-card;
+  .card-text, .card-title{
+    color: color-card-letter;
+  }
+}
